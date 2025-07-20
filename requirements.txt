@@ -1,0 +1,30 @@
+# Core dependencies - Fixed versions for HF Spaces compatibility
+torch>=2.0.0,<2.5.0
+transformers>=4.35.0,<4.50.0
+gradio>=5.31.0
+requests>=2.31.0,<3.0.0
+
+# Audio processing
+librosa>=0.10.0,<0.11.0
+soundfile>=0.12.0,<0.13.0
+
+# AI model optimization - Conservative versions for stability
+bitsandbytes>=0.41.0,<0.45.0
+accelerate>=0.20.0,<0.35.0
+
+# API clients - Latest stable versions
+openai>=1.3.0,<2.0.0
+google-generativeai>=0.3.0,<0.8.0
+
+# Essential utilities
+numpy>=1.24.0,<2.0.0
+scipy>=1.11.0,<1.15.0
+datasets>=2.14.0,<3.0.0
+safetensors>=0.4.0,<0.5.0
+
+# Audio format support
+ffmpeg-python>=0.2.0,<0.3.0.2.0
+
+# Optional: For development
+jupyter>=1.0.0
+notebook>=7.0.0
