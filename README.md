@@ -186,8 +186,8 @@ If you want to run this locally or modify the code:
 
 ```bash
 # Clone the repository
-git clone https://github.com/aaron-official/hybrid-meeting-minutes.git
-cd hybrid-meeting-minutes
+git clone https://github.com/aaron-official/hybrid-meeting-minutes-generator.git
+cd hybrid-meeting-minutes-generator
 
 # Install dependencies
 pip install -r requirements.txt
@@ -257,8 +257,8 @@ We welcome contributions! To contribute:
 
 ```bash
 # Clone and setup development environment
-git clone https://github.com/aaron-official/hybrid-meeting-minutes.git
-cd hybrid-meeting-minutes
+git clone https://github.com/aaron-official/hybrid-meeting-minutes-generator.git
+cd hybrid-meeting-minutes-generator
 
 # Install development dependencies
 pip install -r requirements.txt
